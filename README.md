@@ -149,4 +149,4 @@ The production `.env` is copied into each release and set to mode `640`. Keep th
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Apache License 2.0. See [LICENSE](LICENSE).
