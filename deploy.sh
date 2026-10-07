@@ -241,6 +241,7 @@ run_privileged mv "${TEMP_PATH}" "${RELEASE_PATH}"
 
 log "Setting release ownership and writable directories"
 run_privileged chown -R "${DEPLOY_OWNER}:${DEPLOY_GROUP}" "${RELEASE_PATH}"
+run_privileged chmod 750 "${RELEASE_PATH}"
 
 WRITABLE_PATHS=()
 
